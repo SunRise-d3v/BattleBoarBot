@@ -1,5 +1,4 @@
-﻿using System.Xml.Linq;
-using Telegram.Bot;
+﻿using Telegram.Bot;
 using Telegram.Bot.Types;
 
 namespace TelegramBot
@@ -7,6 +6,15 @@ namespace TelegramBot
     public class Program
     {
         //private static string nameBot = "@BigBoar_Bot";
+        private static List<string> command = new List<string>()
+        {
+            "/start",
+            "/help",
+            "/pig",
+            "/name",
+            "/stat",
+            "/squad"
+        };
 
         private static void Main(string[] args)
         {
@@ -26,23 +34,42 @@ namespace TelegramBot
                     break;
 
                 case "/help":
-                    await botclient.SendMessage(update.Message?.Chat.Id ?? 1510162893, "Список команд:\n/start\n/help");
+                    await botclient.SendMessage(update.Message?.Chat.Id ?? 1510162893, $"Список команд:{command}");                  
                     break;
 
                 case "/pig":
-                    Pig.CreatePig();
-                    await botclient.SendMessage(update.Message?.Chat.Id ?? 1510162893, "Ваша свинья создана");
-                    break;
+                    if (Squad.SquadSize < 4)
+                    {
+                        Pig.CreatePig();
+                        //Squad.AddPigToSquad(new Pig());
 
+                        await botclient.SendMessage(update.Message?.Chat.Id ?? 1510162893, "Ваша свинья создана");
+                        break;
+                    }
+                    else
+                    {
+                        await botclient.SendMessage(update.Message?.Chat.Id ?? 1510162893, "Вы не можете создать больше 4 свиней");
+                        break;
+                    }
                 case "/stat":
                     Pig.ShowPigStats(botclient, update);
                     break;
+                case "/squad":
+                    await botclient.SendMessage(update.Message?.Chat.Id ?? 1510162893, $"Ваш отряд состоит из {Squad.SquadSize} свиней");
+                    break;
 
                 default:
-                    if (commands != null && commands.StartsWith("/name"))
+                    if (Pig.Age <= 5)
                     {
-                        string tempName = commands.Substring(5).Trim();
-                        Pig.ChangeName(botclient, update, tempName);
+                        if (commands != null && commands.StartsWith("/name"))
+                        {
+                            string tempName = commands.Substring(5).Trim();
+                            Pig.ChangeName(botclient, update, tempName);
+                        }
+                    }
+                    else
+                    {
+                        await botclient.SendMessage(update.Message?.Chat.Id ?? 1510162893, "Вы больше не можете переименовать своего хряка");
                     }
                     break;
             }

@@ -6,6 +6,10 @@ namespace TelegramBot
     public class Pig
     {
         private static string name = "";
+        public static string Name
+        {
+            get => name;
+        }
 
         private static string[] nameVariation =
         {
@@ -37,6 +41,10 @@ namespace TelegramBot
         };
 
         private static int age;
+        public static int Age
+        {
+            get => age;
+        }
         private const int MAX_AGE = 20;
 
         private static int weight;
@@ -51,6 +59,7 @@ namespace TelegramBot
         private static int luck; //Удача
 
         private static int level;
+
         private static PigClassType classType = PigClassType.None;
         private static PigRaceType raceType = PigRaceType.Pig;
         private static PigMutations pigMutations = PigMutations.None;
@@ -63,12 +72,18 @@ namespace TelegramBot
         private static int health;
         private static int defense;
 
+        private static int mana;
+        private static int maxMana;
+        private static int manaRegen;
+
         public static void CreatePig()
         {
             var rand = new Random();
 
-            for (int i = 0; i < nameVariation.Length; i++)
-                name = nameVariation[i];
+            GetPigStat();
+            GetPigClass();
+
+            name = nameVariation[rand.Next(0, nameVariation.Length)];
 
             age = rand.Next(1, 3 + 1);
 
@@ -78,12 +93,10 @@ namespace TelegramBot
                 weight = rand.Next(4, 9 + 1);
 
             level = 1;
-            GetPigClass();
 
             critChance = rand.Next(4, 8 + 1);
             critDamage = 120;
 
-            GetPigStat();
 
             if (constitution >= 2)
                 defense = constitution * 3 / 2;
@@ -91,17 +104,15 @@ namespace TelegramBot
                 defense = 3;
 
             if (strength >= 2)
-                damage = rand.Next(1, 5 + 1) * ((weight + strength) / 10);
+                damage = rand.Next(1, 5 + 1) * ((weight * strength) / 10);
             else
                 damage = rand.Next(1, 5 + 1);
 
-            maxHealth = 20 + (constitution * 10) / 2;
+            maxHealth = 10 + (constitution * 10) / 2;
             health = maxHealth;
 
-            if (classType == PigClassType.Mage)
-            {
-
-            }
+            maxMana = 10 + (intelligence * 10) / 2;
+            mana = maxMana;
         }
 
         public static void ChangeName(ITelegramBotClient botclient, Update update, string newName)
@@ -112,7 +123,7 @@ namespace TelegramBot
 
         public static void GetPigClass()
         {
-            PigClassType[] pigClasses = (PigClassType[])System.Enum.GetValues(typeof(PigClassType));
+            PigClassType[] pigClasses = (PigClassType[])Enum.GetValues(typeof(PigClassType));
             classType = pigClasses[Random.Shared.Next(pigClasses.Length)];
 
             if (classType == PigClassType.None)
@@ -139,30 +150,31 @@ namespace TelegramBot
         public static void ShowPigStats(ITelegramBotClient botclient, Update update)
         {
             botclient.SendMessage(update.Message?.Chat.Id ?? 1510162893,
-                $"Имя: {name}\n" +
+                $"🐗Имя: {name}\n" +
                 DrawBorder() +
-                $"Возраст: {age}\n" +
-                $"Уровень: {level}\n" +
-                $"Масса: {weight} кг\n" +
+                $"📅Возраст: {age}\n" +
+                $"📜Уровень: {level}\n" +
+                $"🪨Масса: {weight} кг\n" +
                 DrawBorder() +
-                $"Класс: {classType}\n" +
-                $"Раса: {raceType}\n" +
-                $"Мутация: {pigMutations}\n" +
+                $"🎓Класс: {classType}\n" +
+                $"🐷Раса: {raceType}\n" +
+                $"🦠Мутация: {pigMutations}\n" +
                 DrawBorder() +
-                $"Здоровье: {maxHealth} / {health}\n" +
-                $"Защита: {defense}\n" +
+                $"❤️Здоровье: {maxHealth} / {health}\n" +
+                $"🛡️Защита: {defense}\n" +
                 DrawBorder() +
-                $"Урон: {damage}\n" +
-                $"Крит шанс: {critChance}%\n" +
-                $"Крит урон: {critDamage}%\n" +
+                $"🗡️Урон: {damage}\n" +
+                //$"Мана: {maxMana} / {mana}\n" +
+                $"🩸Крит шанс: {critChance}%\n" +
+                $"⚔️Крит урон: {critDamage}%\n" +
                 DrawBorder() +
-                $"Сила: {strength}\n" +
-                $"Ловкость: {dexterity}\n" +
-                $"Телосложение: {constitution}\n" +
-                $"Интеллект: {intelligence}\n" +
+                $"💪Сила: {strength}\n" +
+                $"🏹Ловкость: {dexterity}\n" +
+                $"🐖Телосложение: {constitution}\n" +
+                $"🧠Интеллект: {intelligence}\n" +
                 //$"Мудрость: {Wisdom}\n" +
-                $"Харизма: {charisma}\n" +
-                $"Удача: {luck}");
+                $"🎭Харизма: {charisma}\n" +
+                $"🍀Удача: {luck}");
         }
     }
 }
