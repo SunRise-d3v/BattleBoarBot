@@ -1,7 +1,7 @@
 ﻿using Telegram.Bot;
 using Telegram.Bot.Types;
 
-namespace TelegramBot
+namespace TelegramBot.Bot
 {
     public class Host
     {
@@ -21,7 +21,7 @@ namespace TelegramBot
 
         public async Task Update(ITelegramBotClient botClient, Update update, CancellationToken token)
         {
-            Console.WriteLine($"I received a message: {update.Message?.Text ?? "[No text]"}");
+            Console.WriteLine($"I received a message: {update.Message?.Text ?? "[Other]"}");
             onMessage?.Invoke(botClient, update);
             await Task.CompletedTask;
         }

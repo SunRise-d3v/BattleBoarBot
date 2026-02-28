@@ -1,21 +1,22 @@
 ﻿namespace TelegramBot
 {
-    public enum PigClassType
+    public enum BoarClassType
     {
-        None,
+        None = -1,
         Warrior,
         Archer,
         Mage,
     }
 
-    public enum PigRaceType
+    public enum BoarRaceType
     {
+        None = -1,
         Pig
     }
 
-    public enum PigMutations
+    public enum BoarMutations
     {
-        None,
+        None = -1,
         ThirdEye,
         Giant
     }

@@ -1,22 +1,66 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\TelegramBot\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\Downloads\\TelegramBot-main\\TelegramBot\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B8124C3C-1C20-4B0D-B9F4-5D7C493B5533}|TelegramBot\\TelegramBot.csproj|c:\\users\\user\\source\\repos\\telegrambot\\telegrambot\\pig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8124C3C-1C20-4B0D-B9F4-5D7C493B5533}|TelegramBot\\TelegramBot.csproj|solutionrelative:telegrambot\\pig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B8124C3C-1C20-4B0D-B9F4-5D7C493B5533}|TelegramBot\\TelegramBot.csproj|c:\\users\\user\\downloads\\telegrambot-main\\telegrambot\\telegrambot\\entities\\typesofitems\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8124C3C-1C20-4B0D-B9F4-5D7C493B5533}|TelegramBot\\TelegramBot.csproj|solutionrelative:telegrambot\\entities\\typesofitems\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8124C3C-1C20-4B0D-B9F4-5D7C493B5533}|TelegramBot\\TelegramBot.csproj|c:\\users\\user\\source\\repos\\telegrambot\\telegrambot\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8124C3C-1C20-4B0D-B9F4-5D7C493B5533}|TelegramBot\\TelegramBot.csproj|solutionrelative:telegrambot\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B8124C3C-1C20-4B0D-B9F4-5D7C493B5533}|TelegramBot\\TelegramBot.csproj|c:\\users\\user\\downloads\\telegrambot-main\\telegrambot\\telegrambot\\data\\itemstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8124C3C-1C20-4B0D-B9F4-5D7C493B5533}|TelegramBot\\TelegramBot.csproj|solutionrelative:telegrambot\\data\\itemstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8124C3C-1C20-4B0D-B9F4-5D7C493B5533}|TelegramBot\\TelegramBot.csproj|c:\\users\\user\\source\\repos\\telegrambot\\telegrambot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8124C3C-1C20-4B0D-B9F4-5D7C493B5533}|TelegramBot\\TelegramBot.csproj|solutionrelative:telegrambot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B8124C3C-1C20-4B0D-B9F4-5D7C493B5533}|TelegramBot\\TelegramBot.csproj|c:\\users\\user\\downloads\\telegrambot-main\\telegrambot\\telegrambot\\bot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8124C3C-1C20-4B0D-B9F4-5D7C493B5533}|TelegramBot\\TelegramBot.csproj|solutionrelative:telegrambot\\bot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8124C3C-1C20-4B0D-B9F4-5D7C493B5533}|TelegramBot\\TelegramBot.csproj|c:\\users\\user\\source\\repos\\telegrambot\\telegrambot\\host.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8124C3C-1C20-4B0D-B9F4-5D7C493B5533}|TelegramBot\\TelegramBot.csproj|solutionrelative:telegrambot\\host.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B8124C3C-1C20-4B0D-B9F4-5D7C493B5533}|TelegramBot\\TelegramBot.csproj|c:\\users\\user\\downloads\\telegrambot-main\\telegrambot\\telegrambot\\core\\squad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8124C3C-1C20-4B0D-B9F4-5D7C493B5533}|TelegramBot\\TelegramBot.csproj|solutionrelative:telegrambot\\core\\squad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8124C3C-1C20-4B0D-B9F4-5D7C493B5533}|TelegramBot\\TelegramBot.csproj|c:\\users\\user\\downloads\\telegrambot-main\\telegrambot\\telegrambot\\core\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8124C3C-1C20-4B0D-B9F4-5D7C493B5533}|TelegramBot\\TelegramBot.csproj|solutionrelative:telegrambot\\core\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8124C3C-1C20-4B0D-B9F4-5D7C493B5533}|TelegramBot\\TelegramBot.csproj|c:\\users\\user\\downloads\\telegrambot-main\\telegrambot\\telegrambot\\core\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8124C3C-1C20-4B0D-B9F4-5D7C493B5533}|TelegramBot\\TelegramBot.csproj|solutionrelative:telegrambot\\core\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8124C3C-1C20-4B0D-B9F4-5D7C493B5533}|TelegramBot\\TelegramBot.csproj|c:\\users\\user\\downloads\\telegrambot-main\\telegrambot\\telegrambot\\entities\\boar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8124C3C-1C20-4B0D-B9F4-5D7C493B5533}|TelegramBot\\TelegramBot.csproj|solutionrelative:telegrambot\\entities\\boar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8124C3C-1C20-4B0D-B9F4-5D7C493B5533}|TelegramBot\\TelegramBot.csproj|c:\\users\\user\\downloads\\telegrambot-main\\telegrambot\\telegrambot\\boarenums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8124C3C-1C20-4B0D-B9F4-5D7C493B5533}|TelegramBot\\TelegramBot.csproj|solutionrelative:telegrambot\\boarenums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8124C3C-1C20-4B0D-B9F4-5D7C493B5533}|TelegramBot\\TelegramBot.csproj|c:\\users\\user\\downloads\\telegrambot-main\\telegrambot\\telegrambot\\entities\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8124C3C-1C20-4B0D-B9F4-5D7C493B5533}|TelegramBot\\TelegramBot.csproj|solutionrelative:telegrambot\\entities\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8124C3C-1C20-4B0D-B9F4-5D7C493B5533}|TelegramBot\\TelegramBot.csproj|c:\\users\\user\\downloads\\telegrambot-main\\telegrambot\\telegrambot\\itemenums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8124C3C-1C20-4B0D-B9F4-5D7C493B5533}|TelegramBot\\TelegramBot.csproj|solutionrelative:telegrambot\\itemenums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8124C3C-1C20-4B0D-B9F4-5D7C493B5533}|TelegramBot\\TelegramBot.csproj|c:\\users\\user\\downloads\\telegrambot-main\\telegrambot\\telegrambot\\utils\\tools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8124C3C-1C20-4B0D-B9F4-5D7C493B5533}|TelegramBot\\TelegramBot.csproj|solutionrelative:telegrambot\\utils\\tools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8124C3C-1C20-4B0D-B9F4-5D7C493B5533}|TelegramBot\\TelegramBot.csproj|c:\\users\\user\\downloads\\telegrambot-main\\telegrambot\\telegrambot\\bot\\host.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8124C3C-1C20-4B0D-B9F4-5D7C493B5533}|TelegramBot\\TelegramBot.csproj|solutionrelative:telegrambot\\bot\\host.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8124C3C-1C20-4B0D-B9F4-5D7C493B5533}|TelegramBot\\TelegramBot.csproj|c:\\users\\user\\downloads\\telegrambot-main\\telegrambot\\telegrambot\\telegrambot.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B8124C3C-1C20-4B0D-B9F4-5D7C493B5533}|TelegramBot\\TelegramBot.csproj|solutionrelative:telegrambot\\telegrambot.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8124C3C-1C20-4B0D-B9F4-5D7C493B5533}|TelegramBot\\TelegramBot.csproj|c:\\users\\user\\downloads\\telegrambot-main\\telegrambot\\telegrambot\\entities\\typesofitems\\armor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8124C3C-1C20-4B0D-B9F4-5D7C493B5533}|TelegramBot\\TelegramBot.csproj|solutionrelative:telegrambot\\entities\\typesofitems\\armor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8124C3C-1C20-4B0D-B9F4-5D7C493B5533}|TelegramBot\\TelegramBot.csproj|c:\\users\\user\\downloads\\telegrambot-main\\telegrambot\\telegrambot\\entities\\typesofitems\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8124C3C-1C20-4B0D-B9F4-5D7C493B5533}|TelegramBot\\TelegramBot.csproj|solutionrelative:telegrambot\\entities\\typesofitems\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 391,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,52 +82,197 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Enums.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TelegramBot\\TelegramBot\\Enums.cs",
-              "RelativeDocumentMoniker": "TelegramBot\\Enums.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\TelegramBot\\TelegramBot\\Enums.cs",
-              "RelativeToolTip": "TelegramBot\\Enums.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "Armor.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\TelegramBot-main\\TelegramBot\\TelegramBot\\Entities\\TypesOfItems\\Armor.cs",
+              "RelativeDocumentMoniker": "TelegramBot\\Entities\\TypesOfItems\\Armor.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\TelegramBot-main\\TelegramBot\\TelegramBot\\Entities\\TypesOfItems\\Armor.cs",
+              "RelativeToolTip": "TelegramBot\\Entities\\TypesOfItems\\Armor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T22:22:11.031Z"
+              "WhenOpened": "2026-02-27T20:17:23.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Food.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\TelegramBot-main\\TelegramBot\\TelegramBot\\Entities\\TypesOfItems\\Food.cs",
+              "RelativeDocumentMoniker": "TelegramBot\\Entities\\TypesOfItems\\Food.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\TelegramBot-main\\TelegramBot\\TelegramBot\\Entities\\TypesOfItems\\Food.cs",
+              "RelativeToolTip": "TelegramBot\\Entities\\TypesOfItems\\Food.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T19:51:05.917Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Pig.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TelegramBot\\TelegramBot\\Pig.cs",
-              "RelativeDocumentMoniker": "TelegramBot\\Pig.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\TelegramBot\\TelegramBot\\Pig.cs",
-              "RelativeToolTip": "TelegramBot\\Pig.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAA2wF0AAABJAAAAAAAAAA==",
+              "Title": "Weapon.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\TelegramBot-main\\TelegramBot\\TelegramBot\\Entities\\TypesOfItems\\Weapon.cs",
+              "RelativeDocumentMoniker": "TelegramBot\\Entities\\TypesOfItems\\Weapon.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\TelegramBot-main\\TelegramBot\\TelegramBot\\Entities\\TypesOfItems\\Weapon.cs",
+              "RelativeToolTip": "TelegramBot\\Entities\\TypesOfItems\\Weapon.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA1wB8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T19:39:10.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ItemEnums.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\TelegramBot-main\\TelegramBot\\TelegramBot\\ItemEnums.cs",
+              "RelativeDocumentMoniker": "TelegramBot\\ItemEnums.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\TelegramBot-main\\TelegramBot\\TelegramBot\\ItemEnums.cs",
+              "RelativeToolTip": "TelegramBot\\ItemEnums.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T19:03:56.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TelegramBot.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\TelegramBot-main\\TelegramBot\\TelegramBot\\TelegramBot.csproj",
+              "RelativeDocumentMoniker": "TelegramBot\\TelegramBot.csproj",
+              "ToolTip": "C:\\Users\\User\\Downloads\\TelegramBot-main\\TelegramBot\\TelegramBot\\TelegramBot.csproj",
+              "RelativeToolTip": "TelegramBot\\TelegramBot.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-27T07:19:59.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ItemStorage.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\TelegramBot-main\\TelegramBot\\TelegramBot\\Data\\ItemStorage.cs",
+              "RelativeDocumentMoniker": "TelegramBot\\Data\\ItemStorage.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\TelegramBot-main\\TelegramBot\\TelegramBot\\Data\\ItemStorage.cs",
+              "RelativeToolTip": "TelegramBot\\Data\\ItemStorage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T07:23:21.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\TelegramBot-main\\TelegramBot\\TelegramBot\\Entities\\Item.cs",
+              "RelativeDocumentMoniker": "TelegramBot\\Entities\\Item.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\TelegramBot-main\\TelegramBot\\TelegramBot\\Entities\\Item.cs",
+              "RelativeToolTip": "TelegramBot\\Entities\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T07:20:13.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\TelegramBot-main\\TelegramBot\\TelegramBot\\Core\\Inventory.cs",
+              "RelativeDocumentMoniker": "TelegramBot\\Core\\Inventory.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\TelegramBot-main\\TelegramBot\\TelegramBot\\Core\\Inventory.cs",
+              "RelativeToolTip": "TelegramBot\\Core\\Inventory.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T19:52:05.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\TelegramBot-main\\TelegramBot\\TelegramBot\\Bot\\Program.cs",
+              "RelativeDocumentMoniker": "TelegramBot\\Bot\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\TelegramBot-main\\TelegramBot\\TelegramBot\\Bot\\Program.cs",
+              "RelativeToolTip": "TelegramBot\\Bot\\Program.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAxwFcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T10:57:45.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Tools.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\TelegramBot-main\\TelegramBot\\TelegramBot\\Utils\\Tools.cs",
+              "RelativeDocumentMoniker": "TelegramBot\\Utils\\Tools.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\TelegramBot-main\\TelegramBot\\TelegramBot\\Utils\\Tools.cs",
+              "RelativeToolTip": "TelegramBot\\Utils\\Tools.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T19:23:29.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Account.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\TelegramBot-main\\TelegramBot\\TelegramBot\\Core\\Account.cs",
+              "RelativeDocumentMoniker": "TelegramBot\\Core\\Account.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\TelegramBot-main\\TelegramBot\\TelegramBot\\Core\\Account.cs",
+              "RelativeToolTip": "TelegramBot\\Core\\Account.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T18:43:14.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Squad.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\TelegramBot-main\\TelegramBot\\TelegramBot\\Core\\Squad.cs",
+              "RelativeDocumentMoniker": "TelegramBot\\Core\\Squad.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\TelegramBot-main\\TelegramBot\\TelegramBot\\Core\\Squad.cs",
+              "RelativeToolTip": "TelegramBot\\Core\\Squad.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T05:59:00.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BoarEnums.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\TelegramBot-main\\TelegramBot\\TelegramBot\\BoarEnums.cs",
+              "RelativeDocumentMoniker": "TelegramBot\\BoarEnums.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\TelegramBot-main\\TelegramBot\\TelegramBot\\BoarEnums.cs",
+              "RelativeToolTip": "TelegramBot\\BoarEnums.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T22:22:11.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Boar.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\TelegramBot-main\\TelegramBot\\TelegramBot\\Entities\\Boar.cs",
+              "RelativeDocumentMoniker": "TelegramBot\\Entities\\Boar.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\TelegramBot-main\\TelegramBot\\TelegramBot\\Entities\\Boar.cs",
+              "RelativeToolTip": "TelegramBot\\Entities\\Boar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8BAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-24T21:55:24.326Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "Host.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TelegramBot\\TelegramBot\\Host.cs",
-              "RelativeDocumentMoniker": "TelegramBot\\Host.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\TelegramBot\\TelegramBot\\Host.cs",
-              "RelativeToolTip": "TelegramBot\\Host.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAOAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\TelegramBot-main\\TelegramBot\\TelegramBot\\Bot\\Host.cs",
+              "RelativeDocumentMoniker": "TelegramBot\\Bot\\Host.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\TelegramBot-main\\TelegramBot\\TelegramBot\\Bot\\Host.cs",
+              "RelativeToolTip": "TelegramBot\\Bot\\Host.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBcAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T19:26:23.743Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TelegramBot\\TelegramBot\\Program.cs",
-              "RelativeDocumentMoniker": "TelegramBot\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\TelegramBot\\TelegramBot\\Program.cs",
-              "RelativeToolTip": "TelegramBot\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAqwCwAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-16T10:57:45.22Z"
+              "WhenOpened": "2026-02-24T19:26:23.743Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
